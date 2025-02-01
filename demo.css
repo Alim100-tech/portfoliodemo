@@ -149,6 +149,12 @@
     }
   }
 
+  @media (max-width: 412px) {
+    .container img {
+      border-radius: 50px;
+      flex-direction: column-reverse;
+    }
+  }
   @media (max-width: 692px) {
     .container{
       padding: 0;
